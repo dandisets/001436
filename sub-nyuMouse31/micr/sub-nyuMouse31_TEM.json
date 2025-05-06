@@ -1,0 +1,11 @@
+{
+    "BodyPart": "BRAIN",
+    "BodyPartDetails": "splenium",
+    "SampleFixation": "2% paraformaldehyde, 2.5% glutaraldehyde",
+    "SampleEnvironment": "ex vivo",
+    "PixelSize": [
+        0.00236,
+        0.00236
+    ],
+    "PixelSizeUnits": "um"
+}

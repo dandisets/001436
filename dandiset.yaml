@@ -3,22 +3,75 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_016124
+    name: Brain Imaging Data Structure (BIDS)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 1042211940
+  numberOfFiles: 660
+  numberOfSamples: 11
+  numberOfSubjects: 20
   schemaKey: AssetsSummary
-citation: Collin, Armand (2025) TEM Images of Mice Corpus Callosum with Axon and Myelin
-  Segmentations (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001436/draft
+  species: []
+  variableMeasured: []
+citation: Fieremans, Els; Collin, Armand; Cohen-Adad, Julien; Foias, Alexandru; Guenther,
+  Nick (2025) TEM Images of  Corpus Callosum in Control and Cuprizone-Intoxicated
+  Mice with Axon and Myelin Segmentations (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/001436/draft
 contributor:
+- identifier: 0000-0002-1384-8591
+  includeInCitation: true
+  name: Fieremans, Els
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:FundingAcquisition
+  - dcite:Methodology
+  - dcite:Researcher
+  schemaKey: Person
 - affiliation: []
   email: armac@videotron.ca
+  identifier: 0009-0005-3258-122X
   includeInCitation: true
   name: Collin, Armand
   roleName:
+  - dcite:Author
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Maintainer
+  schemaKey: Person
+- email: jcohen@polymtl.ca
+  identifier: 0000-0003-3662-9532
+  includeInCitation: true
+  name: Cohen-Adad, Julien
+  roleName:
+  - dcite:Author
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Maintainer
+  - dcite:Supervision
   - dcite:ContactPerson
+  schemaKey: Person
+- includeInCitation: true
+  name: Foias, Alexandru
+  roleName:
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Maintainer
+  schemaKey: Person
+- includeInCitation: true
+  name: Guenther, Nick
+  roleName:
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Maintainer
   schemaKey: Person
 dateCreated: '2025-05-06T22:02:03.767151+00:00'
 description: "- TEM dataset for AxonDeepSeg (https://axondeepseg.readthedocs.io/)\n
@@ -40,15 +93,22 @@ description: "- TEM dataset for AxonDeepSeg (https://axondeepseg.readthedocs.io/
   demyelination in mice intoxicated with cuprizone in both accute (6 weeks) and chronic
   (12 weeks) scenarios. As such, this dataset includes samples from both healthy and
   intoxicated mouse groups."
+ethicsApproval: []
 id: DANDI:001436/draft
 identifier: DANDI:001436
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001436/versions/draft/assets/
-name: TEM Images of Mice Corpus Callosum with Axon and Myelin Segmentations
+name: TEM Images of  Corpus Callosum in Control and Cuprizone-Intoxicated Mice with
+  Axon and Myelin Segmentations
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
+studyTarget:
+- Demyelination Quantification in Cuprizone-Intoxicated Mice
+- Automatic Axon and Myelin Segmentation
 url: https://dandiarchive.org/dandiset/001436/draft
 version: draft
+wasGeneratedBy: []

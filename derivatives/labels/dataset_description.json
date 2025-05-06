@@ -1,0 +1,10 @@
+{
+    "Name": "data_axondeepseg_tem labels",
+    "BIDSVersion": "1.7.0",
+    "PipelineDescription": {
+        "Name": "Axon and myelin manual segmentation labels"
+    },
+    "GeneratedBy": [{
+	"Name": "Axon and myelin manual segmentation labels"
+    }]
+}

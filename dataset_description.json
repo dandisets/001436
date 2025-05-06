@@ -1,0 +1,22 @@
+{
+    "Name": "data_axondeepseg_tem",
+    "BIDSVersion": "1.7.0",
+    "License": "MIT",
+    "Authors": [
+        "Els Fieremans",
+        "Alexandru Foias",
+        "Julien Cohen-Adad",
+        "Mark Does", 
+        "Tanguy Duval",
+        "Tim B. Dyrby",
+        "Harris Nami",
+        "Farshid Sepehrband",
+        "Nikola S. Stikov",
+        "Aldo Zaimi",
+        "Ariane Saliani",
+        "Luis Concha",
+        "Nick Guenther",
+        "Mathieu Boudreau",
+        "Armand Collin"
+    ]
+}
