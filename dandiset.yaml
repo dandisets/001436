@@ -73,6 +73,10 @@ contributor:
   - dcite:DataManager
   - dcite:Maintainer
   schemaKey: Person
+- name: Microscopy Core, NYU Langone Medical Center
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Organization
 dateCreated: '2025-05-06T22:02:03.767151+00:00'
 description: "- TEM dataset for AxonDeepSeg (https://axondeepseg.readthedocs.io/)\n
   \n- 158 brain (splenium) samples from 20 mice with axon and myelin manual segmentation
