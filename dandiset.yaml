@@ -21,11 +21,21 @@ assetsSummary:
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
-citation: Fieremans, Els; Collin, Armand; Cohen-Adad, Julien; Foias, Alexandru; Guenther,
-  Nick (2025) TEM Images of  Corpus Callosum in Control and Cuprizone-Intoxicated
+citation: Jelescu, Ileana; Fieremans, Els; Collin, Armand; Foias, Alexandru; Guenther,
+  Nick; Cohen-Adad, Julien (2025) TEM Images of  Corpus Callosum in Control and Cuprizone-Intoxicated
   Mice with Axon and Myelin Segmentations (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001436/draft
 contributor:
+- identifier: 0000-0002-3664-0195
+  includeInCitation: true
+  name: Jelescu, Ileana
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:DataCollector
+  - dcite:Investigation
+  - dcite:Researcher
+  schemaKey: Person
 - identifier: 0000-0002-1384-8591
   includeInCitation: true
   name: Fieremans, Els
@@ -47,18 +57,6 @@ contributor:
   - dcite:DataManager
   - dcite:Maintainer
   schemaKey: Person
-- email: jcohen@polymtl.ca
-  identifier: 0000-0003-3662-9532
-  includeInCitation: true
-  name: Cohen-Adad, Julien
-  roleName:
-  - dcite:Author
-  - dcite:DataCurator
-  - dcite:DataManager
-  - dcite:Maintainer
-  - dcite:Supervision
-  - dcite:ContactPerson
-  schemaKey: Person
 - includeInCitation: true
   name: Foias, Alexandru
   roleName:
@@ -77,6 +75,18 @@ contributor:
   roleName:
   - dcite:DataCollector
   schemaKey: Organization
+- email: jcohen@polymtl.ca
+  identifier: 0000-0003-3662-9532
+  includeInCitation: true
+  name: Cohen-Adad, Julien
+  roleName:
+  - dcite:Author
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:Maintainer
+  - dcite:Supervision
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2025-05-06T22:02:03.767151+00:00'
 description: "- TEM dataset for AxonDeepSeg (https://axondeepseg.readthedocs.io/)\n
   \n- 158 brain (splenium) samples from 20 mice with axon and myelin manual segmentation
