@@ -23,8 +23,8 @@ assetsSummary:
   variableMeasured: []
 citation: Jelescu, Ileana; Fieremans, Els; Collin, Armand; Foias, Alexandru; Guenther,
   Nick; Cohen-Adad, Julien (2025) TEM Images of  Corpus Callosum in Control and Cuprizone-Intoxicated
-  Mice with Axon and Myelin Segmentations (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001436/draft
+  Mice with Axon and Myelin Segmentations (Version 0.250512.1625) [Data set]. DANDI
+  Archive. https://doi.org/10.48324/dandi.001436/0.250512.1625
 contributor:
 - identifier: 0000-0002-3664-0195
   includeInCitation: true
@@ -108,13 +108,14 @@ description: "- TEM dataset for AxonDeepSeg (https://axondeepseg.readthedocs.io/
   demyelination in mice intoxicated with cuprizone in both accute (6 weeks) and chronic
   (12 weeks) scenarios. As such, this dataset includes samples from both healthy and
   intoxicated mouse groups."
+doi: 10.48324/dandi.001436/0.250512.1625
 ethicsApproval: []
-id: DANDI:001436/draft
+id: DANDI:001436/0.250512.1625
 identifier: DANDI:001436
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001436/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001436/0.250512.1625/assets.yaml
 name: TEM Images of  Corpus Callosum in Control and Cuprizone-Intoxicated Mice with
   Axon and Myelin Segmentations
 publishedBy:
@@ -136,6 +137,6 @@ schemaVersion: 0.6.9
 studyTarget:
 - Demyelination Quantification in Cuprizone-Intoxicated Mice
 - Automatic Axon and Myelin Segmentation
-url: https://dandiarchive.org/dandiset/001436/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001436/0.250512.1625
+version: 0.250512.1625
 wasGeneratedBy: []
