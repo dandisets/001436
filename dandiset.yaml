@@ -88,6 +88,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2025-05-06T22:02:03.767151+00:00'
+datePublished: '2025-05-12T16:25:23.797610+00:00'
 description: "- TEM dataset for AxonDeepSeg (https://axondeepseg.readthedocs.io/)\n
   \n- 158 brain (splenium) samples from 20 mice with axon and myelin manual segmentation
   labels.\n\n- Every individual axon is separated from neighboring fibers with a 2
@@ -116,6 +117,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001436/versions/draft/assets/
 name: TEM Images of  Corpus Callosum in Control and Cuprizone-Intoxicated Mice with
   Axon and Myelin Segmentations
+publishedBy:
+  endDate: '2025-05-12T16:25:23.797610+00:00'
+  id: urn:uuid:f50cc83a-a6e8-4f02-8985-79a4de6b85dc
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-05-12T16:25:23.797610+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:42e595a6-c73a-4db0-a1f9-05f1155c9861
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
